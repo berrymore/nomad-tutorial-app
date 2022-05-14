@@ -10,5 +10,21 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {}
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.5",
+    "pimple/pimple": "^3.0",
+    "sabre/cache": "^1.0",
+    "ext-memcached": "*",
+    "league/plates": "^3.4"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
 }
