@@ -1,0 +1,14 @@
+{
+  "name": "berrymore/nomad-tutorial-app",
+  "description": "Simple API application",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergei Aleinik",
+      "email": "kerbi.jam@yandex.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
+}
